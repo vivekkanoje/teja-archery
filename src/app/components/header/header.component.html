@@ -1,0 +1,45 @@
+<div class="site-mobile-menu site-navbar-target">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>
+
+
+<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      <div class="site-logo mr-auto w-25"><a href="/">TejaArchery</a></div>
+
+      <div class="mx-auto text-center">
+        <nav class="site-navigation position-relative text-right" role="navigation">
+          <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+            <li><a [routerLink]="['/main']" fragment="home-section" class="nav-link">Home</a></li>
+            <li><a [routerLink]="['/main']" fragment="courses-section" class="nav-link">Courses</a></li>
+            <li><a [routerLink]="['/main']" fragment="programs-section" class="nav-link">Programs</a></li>
+            <li><a [routerLink]="['/main']" fragment="coach-section" class="nav-link">Coach</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="ml-auto w-30">
+        <nav class="site-navigation position-relative text-right" role="navigation">
+          <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+            <li class="cta"><a [routerLink]="['/main']" fragment="contact-section" class="nav-link"><span>Contact Us</span></a></li>
+            <li class="cta"><a [routerLink]="['/login']" fragment="home-section" class="nav-link"><span>LogIn</span></a></li>
+            <li class="cta custom-icon-light"><a href="tel:(647) 529-1717" class="nav-link">
+                <span class="custom-icon-inner"><span class="icon icon-phone2 font-weight-bold"></span></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span
+            class="icon-menu h3"></span></a>
+      </div>
+    </div>
+  </div>
+
+</header>
